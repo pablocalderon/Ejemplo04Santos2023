@@ -24,9 +24,13 @@
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/hogar"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="643dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/BTCalcularP"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.99"
+        app:srcCompat="@mipmap/hogar" />
 
     <TextView
         android:id="@+id/textView4"
@@ -43,10 +47,14 @@
         app:layout_constraintVertical_bias="0.323" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/BTCalcularP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/hogar"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="516dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@mipmap/hogar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

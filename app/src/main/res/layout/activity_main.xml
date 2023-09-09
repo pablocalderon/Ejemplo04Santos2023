@@ -35,12 +35,11 @@
             app:layout_constraintVertical_bias="0.757">
 
             <Button
-                android:id="@+id/BTAceptar"
+                android:id="@+id/BTCalcularP"
                 android:layout_width="162dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/botonceptar"
                 android:paddingRight="24dp"
-                android:text="Aceptar" />
+                android:text="Calcular" />
 
             <Button
                 android:id="@+id/BTAyuda"
