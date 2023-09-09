@@ -19,7 +19,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.264"
+            app:layout_constraintVertical_bias="0.216"
             app:srcCompat="@mipmap/hogar" />
 
         <LinearLayout
@@ -35,17 +35,18 @@
             app:layout_constraintVertical_bias="0.757">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/BTAceptar"
                 android:layout_width="162dp"
                 android:layout_height="wrap_content"
+                android:background="@drawable/botonceptar"
                 android:paddingRight="24dp"
-                android:text="Button" />
+                android:text="Aceptar" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/BTAyuda"
                 android:layout_width="162dp"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Ayuda" />
         </LinearLayout>
 
         <TextView
@@ -54,11 +55,12 @@
             android:layout_height="wrap_content"
             android:text="Pintamos Casas"
             android:textSize="34sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.345" />
+            app:layout_constraintVertical_bias="0.318" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
